@@ -1,0 +1,19 @@
+{
+  "name": "@kso/omise-js",
+  "version": "0.0.1",
+  "description": "Unoffical Omise package purly written in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kso/omise-js"
+  },
+  "keywords": [
+    "omise",
+    "omise-js"
+  ],
+  "author": "DeathSy",
+  "license": "MIT"
+}
