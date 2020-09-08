@@ -15,5 +15,9 @@
     "omise-js"
   ],
   "author": "DeathSy",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kso-module/omise-js/issues"
+  },
+  "homepage": "https://github.com/kso-module/omise-js#readme"
 }
