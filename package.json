@@ -1,8 +1,8 @@
 {
-  "name": "@kso/omise-js",
-  "version": "0.0.1",
+  "name": "@deathsy/omise-js",
+  "version": "0.0.2",
   "description": "Unoffical Omise package purly written in Typescript",
-  "main": "index.js",
+  "main": "lib/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",

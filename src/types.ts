@@ -3,14 +3,16 @@ export interface IOmiseConfig {
   apiVersion: string;
 }
 
-interface ICardOption {
-  name: string;
-  city: string;
-  postal_code: number;
-  number: string;
-  expiration_month: number;
-  expiration_year: number;
-  security_code: number;
+interface ITokenRequest {
+  card: {
+    name: string;
+    city: string;
+    postal_code: number;
+    number: string;
+    expiration_month: number;
+    expiration_year: number;
+    security_code: number;
+  };
 }
 
 interface IOmiseCard {
@@ -39,7 +41,7 @@ interface IOmiseCard {
   created_at: "2019-12-31T12:59:59Z";
 }
 
-interface IOmiseResponse {
+interface ITokenResponse {
   object: string;
   id: string;
   livemode: boolean;
@@ -51,5 +53,5 @@ interface IOmiseResponse {
 }
 
 export interface IOmise {
-  createToken: (cardData: ICardOption) => Promise<IOmiseResponse>;
+  createToken: (cardData: ITokenRequest) => Promise<ITokenResponse>;
 }
